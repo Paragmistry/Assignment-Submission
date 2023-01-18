@@ -1,0 +1,51 @@
+Module 1 Question Answer
+Q1 what are voud element in html?
+Ans. There is a group of elements that are exceptions to this rule. These elements are called empty or void and only have a start tag since they can't contain any content.
+
+Q2 what are entities of html?
+Ans. An HTML entity is a piece of text ("string") that begins with an ampersand ( & ) and ends with a semicolon ( ; ) . There is 24 Character entity references in HTML 4 .
+
+Q3 what are different types of lists in html?
+Ans. The three list types, which are unordered list, ordered list, and definition list.
+     unordered list — used to group a set of related items in no particular order.
+     ordered list — used to group a set of related items in a specific order.
+     description list — used to display name/value pairs such as terms and definitions.
+
+Q4 what is class attribute in Html?
+Ans. The class attribute specifies one or more classnames for an element. The class attribute is mostly used to point to a class in a style sheet. However, it can also be used by a JavaScript (via the HTML DOM) to make changes to HTML elements with a specified class.
+
+Q5 what are the difference between the id attribute and the class attribute in HTML?
+Ans. The difference between an ID and a class is that an ID is only used to identify one single element in our HTML. IDs are only used when one element on the page should have a particular style applied to it. However, a class can be used to identify more than one HTML element.
+
+Q6 what are the various formatting tags in HTML?
+Ans. Formatting elements were designed to display special types of text:   
+     <b> - Bold text
+     <strong> - Important text
+     <i> - Italic text
+     <em> - Emphasized text
+     <mark> - Marked text
+     <small> - Smaller text
+     <del> - Deleted text
+     <ins> - Inserted text
+     <sub> - Subscript text
+
+Q7 How is cell pading is different from cell spacing in HTML?
+Ans. Cell padding is used to set extra space which is used to separate cell walls from their contents. But in contrast cell spacing is used to set space between cells. Show activity on this post. Cellpadding is the amount of space between the outer edges of the table cell and the content of the cell.
+
+Q8 How can we club two or more rows or columns into a single row or column in an HTML table?
+Ans. To merge table columns in HTML use the colspan attribute in <td> tag. With this, merge cells with each other. For example, if your table is having 4 rows and 4 columns, then with colspan attribute, you can easily merge 2 or even 3 of the table cells.
+
+Q9 what is the  difference between block level element and an inline element?
+Ans. the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.
+Block Elements occupy the full width irrespective of their sufficiency. Inline elements don't start in a new line.
+
+Q10 How to create hyperlink in HTML?
+Ans. A hyperlink, also called a link or web link, contains an address for a destination and acts as a reference to data. A user can easily follow, jump to, and be directed to the destination by either clicking, tapping on, or hovering over the link.
+For example To make a hyperlink in an HTML page, use the <a> and </a> tags, which are the tags used to define the links. The <a> tag indicates where the hyperlink starts and the </a> tag indicates where it ends. Whatever text gets added inside these tags, will work as a hyperlink. Add the URL for the link in the <a href=” ”>.
+
+Q11 what is the use of iframe tag?
+Ans. An inline frame (iframe) is a HTML element that loads another HTML page within the document. It essentially puts another webpage within the parent page. They are commonly used for advertisements, embedded videos, web analytics and interactive content
+
+Q12 what is the use of span tag explain with example?
+Ans. The <span> HTML element is a generic inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang.
+For example The <span> tag is an inline container used to mark up a part of a text, or a part of a document. The <span> tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute. The <span> tag is much like the <div> element, but <div> is a block-level element and <span> is an inline element.
