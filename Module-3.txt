@@ -1,0 +1,75 @@
+Assignment Module-3
+
+1) What are the new tags added in HTML5?
+<article>	
+<audio>
+<canvas>
+<command>
+<details>
+<nav>
+<progress>
+<section>
+<video>
+
+2) How to embed audio and video in a webpage?
+To embed video in HTML, we use the <video> tag. It contains one or more video sources at a time using <source> tag. It supports MP4, WebM, and Ogg in all modern browsers.
+
+Audio tags:
+<audio>
+    <source src="file_name" type="audio_file_type">
+</audio>
+
+Video tags:
+<video>
+    <source src="file_name" type="video_file_type">
+</video>
+
+3) Semantic element in HTML5?
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+
+4) Canvas and SVG tags
+Canvas tags:
+
+<html>
+<body>
+
+<h1>The canvas element</h1>
+
+<canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(0, 0, 80, 100);
+</script>
+
+</body>
+</html>
+
+SVG tags:
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The svg element</h1>
+
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+  Sorry, your browser does not support inline SVG.
+</svg>
+ 
+</body>
+</html>
