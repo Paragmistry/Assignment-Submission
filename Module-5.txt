@@ -1,0 +1,58 @@
+Q.1> What is JQuery?
+Ans. jQuery is a lightweight, "write less, do more", JavaScript library.
+        The purpose of jQuery is to make it much easier to use JavaScript on your website.
+        jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.
+        jQuery also simplifies a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.
+        The jQuery library contains the following features: 
+        HTML/DOM manipulation
+        CSS manipulation
+        HTML event methods
+        Effects and animations
+        AJAX.
+
+Q.2> How to Apply CSS Using JQuery, How to Add Class and Remove Class in JQuery, JQuery Animation?
+Ans. 1)Apply CSS Using JQuery
+		For Using Sets or returns the style attribute.Syntax Be Like..
+		 Genral Syntax :- css("propertyname","value");
+
+			The following example will set the background-color value for ALL matched elements:<br>
+
+			Example
+
+		               $("p").css("background-color", "yellow");
+           2)Add Class() In JQuery.
+		Adds one or more classes to the selected elements. Syntax be like...
+			$("button").click(function(){
+  			$("#div1").addClass("important blue");
+			});
+
+         3)Remove Class() In JQuery.
+	Removes one or more classes from the selected elements Syntax be Like...
+		Example Syntax Be Like...
+		$("button").click(function(){
+  $("h1, h2, p").removeClass("blue");
+});
+        4) Animation In JQuery.</h2>
+	
+		 The jQuery animate() method is used to create custom animations.
+		Genral Syntax.
+		$(selector).animate({params},speed,callback);
+		Example.
+		$("button").click(function(){
+              $("div").animate({left: '250px'});
+                         });
+
+
+Q.3>
+Ans. jQuery UI consists of GUI widgets, visual effects, and themes implemented using jQuery, CSS, and HTML. jQuery UI is great for building UI interfaces for the webpages. jQueryUI provides us a slider control through the slider widget. Slider helps us to get a certain value using a given range. In this article, we will see how to animate a slider. The animate option when set to true will create an animation effect when you directly click at any point on the slider’s axis
+
+       Syntax:
+                    $(".selector").slider(
+                      { animate: value }
+                       );
+       Parameters: This option accepts three parameters as discussed below:
+       boolean: If set to true, the slider will be animated. By default, the value is false
+       string: The string value used to set the speed of the slider cursor. The available values are slow, normal, fast.
+       number: The duration of the animation in milliseconds.
+
+ 
