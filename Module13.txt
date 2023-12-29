@@ -1,0 +1,17 @@
+                                                                                 Module :- 13 React Redux
+
+Q.1> What is Redux?
+Ans. Redux is a predictable state container for JavaScript apps. As the application grows, it becomes difficult to keep it organized and maintain data flow. Redux solves this problem by          managing application’s state with a single global object called Store. Redux fundamental principles help in maintaining consistency throughout your application, which makes debugging and testing easier.
+
+Q.2> What is Redux Thunk used for?
+Ans. Redux Thunk middleware allows you to write action creators that return a function instead of an action. The thunk can be used to delay the dispatch of an action, or to dispatch only if     a certain condition is met. The inner function receives the store methods dispatch and getState as parameters.
+
+Q.3> What is Pure Component? When to use Pure Component over Component?
+Ans. It is the type of component which re-renders only when the props passed to it changes and not even if its parent component re-renders or if the shouldComponentUpdate()method is called.
+
+     React.PureComponent Is Primarily Used for Performance Optimization-
+     If your React component’s render() function renders the same result given the same props and state, you can use React.PureComponent for a performance boost in some cases.
+
+Q.4> What is the second argument that can optionally be passed tosetState and what is its purpose?
+Ans. he second argument that can optionally be passed to setState is a callback function which gets called immediately after the setState is completed and the components get re-rendered. 
+     If you want your program to update the value of a state using setState and then perform certain actions on the updated value of state then you must specify those actions in a function        which should be the second argument of the setState. If we would not do so then those actions will be performed on the previous value of state because of asynchronous nature of setState.
