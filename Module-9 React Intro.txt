@@ -1,0 +1,165 @@
+                                                                               MODULE: 9 ReactJs Intro
+Que> What is React Js?
+Ans> React is a JavaScript library created by Facebook.
+     React is a User Interface (UI) library.
+     React is a tool for building UI components.
+
+Que> What is NPM in React Js?
+Ans> The name npm (Node Package Manager) stems from when npm first was created as a package manager for Node.js.
+     All npm packages are defined in files called package.json.
+     The content of package.json must be written in JSON.
+
+
+
+Que> What is Role of Node Js in react Js ?
+Ans>  Node.js is the most convenient platform for hosting as well as running a web server for a React application. It’s because of two main reasons –
+
+     Firstly, it seamlessly integrates with the NPM registry, making package installation easy through the NPM CLI.
+     Secondly, Node.js can bundle a React application into a single file, simplifying compilation using tools like webpack and other Node modules.
+     But in some cases, a complete backend overhaul may not be practical, especially if you are already using Ruby on Rails (RoR) as your backend solution.
+
+     However, there is a workaround: you can use Node.js to run the web server for hosting your React application. Node.js pairs well with Ruby on Rails, as RoR handles the backend while             Node.js efficiently manages the web server for React.
+
+    By integrating Node’s tools with RoR’s asset pipeline, development with CommonJS becomes more streamlined.
+
+    Remember, React renders UI components on the frontend, while Node.js manages server-side data communication. The synergy between React and Node.js creates a cohesive and responsive web  
+
+Que> What is CLI commands in React js?
+Ans> React has its own command-line interface (CLI) commands. However, these CLI commands are currently only used to create a passable version of a react application using the command line.                   
+This will contain a default template as its design, so all the react application created this way will have great consistency as they all have same structure.
+
+Que> What is Components in React Js?
+Ans> Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML.
+     Components come in two types, Class components and Function components.
+
+Que> What is Header and Content Components in React Js?
+Ans> In react Header and Content Components are term offten used to reprsent deffrent parts of a user interface-
+     1.Header Component:
+      The header compoent typically contains elements releted to the top section of a webpage or applicstion. it might include a site logo, navigation menu, user authentication details, or any other content meant to be displayed at the top.
+     2.Content Component:
+      The Content Component usually encapsulates the main body of the application. it contains the primarey content that user interact with, such as forms, lists, or the  display elements
+specific to the applications purpose.
+
+Que> Howinstall React Js on Windows, Linux Operating System? How to Install NPM and How to check version of NPM?
+Ans> Installation Reactjs on Windows:
+Step 1: Install Node.js installer for windows. Click on this link. Here install the LTS version (the one present on the left). Once downloaded open NodeJS without disturbing other settings, click on the Next button until it’s completely installed.
+
+Install the 14.18.1 LTS 
+Install the 14.18.1 LTS 
+
+Step 2: Open command prompt  to check whether it is completely installed or not type the command –> 
+
+node -v
+Node Version is v14.15.3
+Node Version is v14.15.3
+
+If the installation went well it will give you the version you have installed  
+
+Step 3: Now in the terminal run the below command: 
+
+npm install -g create-react-app  
+Installation will take few seconds 
+Installation will take few seconds 
+
+It will globally install react app for you. To check everything  went well run the command  
+
+create-react-app --version
+version  4.0.3
+version  4.0.3
+
+If everything went well it will give you the installed version of react app
+
+Step 4:Now Create a new folder where you want to make your react app using the below command: 
+
+mkdir newfolder
+Note: The newfolder in the above command is the name of the folder and can be anything.
+
+
+
+Move inside the same folder using the below command:
+
+cd newfolder (your folder name)
+
+
+Step 5: Now inside this folder run the command –>
+
+create-react-app reactfirst YOUR_APP_NAME
+creating a react app
+
+It will take some time to install the required dependencies
+
+NOTE: Due to npm naming restrictions, names can no longer contain capital letters, thus type your app’s name in lowercase.
+
+
+ 
+
+Step 6: Now open the IDE of your choice for eg.  Visual studio code and open the folder where you have installed the react app newfolder (in the above example)  inside the folder you will see your app’s name reactapp (In our example). Use the terminal and move inside your app name folder.Use command  cd reactapp (your app name)
+
+
+
+Step 7: To start your app run the below command :
+
+npm start  
+Starting React server
+
+Once you run the above command a new tab will open in your browser showing React logo as shown below :
+
+Que> How to check version of React Js?
+Ans> To check the version of React we can use these 3 approaches:
+
+Table of Content
+
+Using package.json file
+Using the command line
+Using the version property of default import from React
+Approach 1: Using the package.json file
+The package.json contains metadata about our project. It is created by default when we create our React project. We can create a react app using the command mentioned below. 
+
+npx create-react-app name_of_the_app
+The package.json file contains a lot of information in the name/value pairs in JSON format. We can easily check our React version under the list of dependencies as shown in the image given below.
+
+
+
+Approach 2: Using the command line
+We can easily check the React version by using the command mentioned below on our command line.
+
+npm view react version
+The output demonstrating the use of the above command on the command line is mentioned below.
+
+
+
+Approach 3: Using the version property of default import from Reac
+The default import from React library is an object that has a version property on it. We can use this property inside our JSX elements in our desired manner. 
+
+Syntax:
+import React from 'react';
+let a = React.version
+
+To follow along with the article create a react project using the command that was discussed above in the article. 
+
+Example: This example demonstrates the use of the version property on React object.
+
+Javascript
+// Filename - App.js
+ 
+import React from "react";
+ 
+const App = () => {
+    return (
+        <h1>
+            We are currently using react version{" "}
+            {React.version}
+        </h1>
+    );
+};
+ 
+export default App;
+Step to run the application: Use the following command on the command line to start the application.
+
+npm start
+
+Output: Open the browser and go to http://localhost:3000, you will see the following output.
+ 
+Que> How to change component in React js?
+Ans> To change a component in reactjs, you typically modifiy its state or props. if you want to change  the component's appeareance or behavior based on certain conditions or user interactions, you'd update state using setState() on modifiy the props passed to the Component.
+
